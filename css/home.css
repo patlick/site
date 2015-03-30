@@ -1,0 +1,15 @@
+div.tile {
+
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+div.tile:hover {
+
+    border: 2px solid;
+    border-color: #6797e5;
+    border-radius: 10px;
+
+}

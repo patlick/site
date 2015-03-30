@@ -2,10 +2,11 @@
 
 <html>
   <head>
-    <title> </title>
+    <title>Home | Patrick E Leonard</title>
 
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/core.css">
+    <link rel="stylesheet" type="text/css" href="css/core.css">
+    <link rel="stylesheet" type="text/css" href="css/home.css">
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
   <head>
@@ -14,35 +15,46 @@
 
     <div id="header"></div>
 
-
-
-    <div class="container">
-      <a href="portfolio.html">Portfolio</a>
-      <br>
-      <a href="projects.html">Projects</a>
-      <br>
-      <a href="../blog/index.html">Blog</a>
-      <br>
+    <div class="jumbotron" style="background-color: #6797e5;">
+      <div class="container">
+        <h1>Greetings, friends!</h1>
+        <p>Welcome to my website. Click for fun stuff.</p>
+      </div>
     </div>
 
 
-
-
-
-
-
-
-
-
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 tile">
+          <a href="portfolio.html"><span></span></a>
+          <img src="home/portfolio_icon.png" style="width:60%; height:auto"></img>
+          <h2>Portfolio</h2>
+          <p>Take a look at some of my past work.</p><br>
+        </div>
+        <div class="col-md-4 tile">
+          <a href="projects.html"><span></span></a>
+          <img src="home/projects_icon.png" style="width:60%; height:auto"></img>
+          <h2>Projects</h2>
+          <p>Here's where I keep assorted things I've been working on. Hosted mostly through Github Pages.</p>
+       </div>
+        <div class="col-md-4 tile">
+          <a href="blog/_site/index.html"><span></span></a>
+          <img src="home/blog_icon.png" style="width:60%; height:auto"></img>
+          <h2>Blog</h2>
+          <p>Watch me wrestle a Jekyll blog and ramble about what's on my mind.</p>
+        </div>
+      </div>
+    </div>
 
 
     <div id="footer"></div>
 
     <script> 
-    $(function(){
-      $("#header").load("../header.html"); 
-      $("#footer").load("../footer.html"); 
-    });
+      $(function(){
+        $("#header").load("headers/home.html"); 
+        $("#footer").load("footers/footer.html");
+      });
     </script> 
 
     <script src="../bootstrap/js/bootstrap.min.js"></script>
