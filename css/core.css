@@ -70,6 +70,10 @@ p.date {
     font-style: italic;
 }
 
+p.footer {
+    font-size: 10;
+}
+
 div.separator {
 
     border-bottom: 2px solid #6797e5;
