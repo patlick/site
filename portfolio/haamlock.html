@@ -4,6 +4,7 @@
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/core.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../headers/favicon.ico">
     <link href="../bootstrap/css/carousel.css" rel="stylesheet" type="text/css">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -19,24 +20,91 @@
     <div class="container">
 
       <h1>HAAM Lock</h1>
-      <h3>A Bluetooth-enabled, Smartphone-compatible Bicycle Lock<br>
-          Designed/Built Winter-Spring 2013 for NUvention: Web</h3>
+      <h4>A Bluetooth-enabled, Smartphone-compatible Bicycle Lock<br>
+          Designed/Built Winter-Spring 2013 for NUvention: Web (EECS 372) at Northwestern University</h4>
 
       <p>
         HAAM Lock was conceived as the ultimate bike lock: intuitive, connected, and secure. Operated by iPhone via Bluetooth LE.
       </p>
 
 
-      <div align="center">
-          <img class="top" src="haamlock/main_abs_1000.jpg" style="size:30%">
-      </div>
+          <img class="top" src="haamlock/main_abs_1000.jpg" style="width: 940px; height:auto">
+          <p class="caption">A screen of the early HAAM Lock app alongside a 3D-printed ABS hardware prototype.</p>
+
+    </div>
+
+    <div id="jump-buttons" class="container" align="center">
+      <h4>Jump to: <a href="#overview">Overview/Background</a> | <a href="#sw-models">Solidworks Models</a> | <a href="#eng-drawings">Engineering Drawings</a> | <a href="#prototypes">3D Printed Prototypes</a> | <a href="#manufacturing">Manufacturing</a> </h4>
+    </div>
+
+    <a name="overview"></a>
+    <div class="separator"></div>
+    <div class="container">
+
+      <h2>Overview and Background</h2>
+      <br>
+      <p>HAAM Lock started life as CycleTracer in the fall of 2012. The original idea was to create a smart bike lock to track your bike on a map in real time and send you push notifications if the lock was cut or stolen. I joined the team in December to work on the physical product development as we entered Nothwestern's NUvention: Web entrepreneurship program.
+      <br><br>
+      We pivoted in late winter, dropping the tracking and alarm features over concerns about cost and battery life, but the xproduct's most compelling feature remained: its smartphone connectivity via Bluetooth LE. This connection allowed a user to control the HAAM Lock without a key (one of a conventional lock's most significant vulnerabilities), keep track of parking locations, and blast information to social media and stolen bike databases if the user's bike is stolen. We created several functional prototypes, placed in two pitch competitions at Northwestern, and launched a crowdfunding campaign, but the team disbanded in the summer of 2013 and the product progressed no further.
+      <br><br>
+      The team had several important takeaways from this project. First, we learned that the ideal smart bike lock is very expensive to build and commercialize with current technology. The electronics costs would be reasonable, but ensuring a sturdy and secure product would require some complex and expensive manufacturing, even at scale. The final product would have been priced in the range of $120-150, too costly for the vast majority of users.
+      <br><br>
+      We also learned, however, that all the technology and consumer interest is in place for this type of product to be successful at the right price point. Several other teams have also tried and failed to build a connected bicycle lock, but as costs come down and the Internet of Things becomes more of a reality, we fully expect a successful product to emerge eventually. Unfortunately, that product won't be the HAAM Lock, but it will probably have many of the same features.
+
+    </div>
 
 
-      <div class="page-header">
+    <a name="sw-models"></a>
+    <div class="separator"></div>
+    <div class="container">
+      <h2>Solidworks Models</h2>
+      <br><br>
+      <img src="haamlock/solidworks/solid_1000.png" style="width:940; height:auto"></img>
+      <br><br>
+      <img src="haamlock/solidworks/main_transparent.png" style="width:940; height:auto"></img>
+      <br><br>
+      <img src="haamlock/solidworks/top_transparent.png" style="width:940; height:auto"></img>
+      <br><br>
+      <img src="haamlock/solidworks/front_transparent.png" style="width:940; height:auto"></img>
+      <br><br>
+      <img src="haamlock/solidworks/side_transparent.png" style="width:940; height:auto"></img>
+      <br><br>
+
+    </div>
+
+
+    <a name="eng-drawings"></a>
+    <div class="separator"></div>
+    <div class="container">
+      <h2>Engineering Drawings</h2>
+      <br><br>
+      <img src="haamlock/solidworks/lower_drawing_1000.png" style="width:940; height:auto"></img>
+      <br>
+      <div class="page-header"></div>
+      <img src="haamlock/solidworks/upper_drawing_1000.png" style="width:940; height:auto"></img>
+      <br>
+
+    </div>
+
+
+    <a name="prototypes"></a>
+    <div class="separator"></div>
+    <div class="container">
+      <h2>3D Printed Prototypes</h2>
+      <br><br>
+      <img src="haamlock/prototypes/abs_1_1000.jpg" style="width:940; height:auto"></img>
+      <br>
+      
+    </div>
+
+
+    <a name="manufacturing"></a>
+    <div class="separator"></div>
+
+    <div class="container">
         <h2>Manufacturing</h2>
+        <br>
         <p>The Solidworks models were imported into NX to develop machining operations for the upper and lower parts as well as the main body contour.
-      </div>
-
     </div>
 
   <!-- CAROUSELS -->
@@ -68,51 +136,31 @@
         <div class="item">
           <img src="haamlock/manufacturing/upper_2.png" alt="Second slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/upper_3.png" alt="Third slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/upper_4.png" alt="Fourth slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/upper_5.png" alt="Fifth slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/upper_6.png" alt="Sixth slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
       </div>
@@ -156,61 +204,37 @@
         <div class="item">
           <img src="haamlock/manufacturing/lower_2.png" alt="Second slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/lower_3.png" alt="Third slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/lower_4.png" alt="Fourth slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/lower_5.png" alt="Fifth slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/lower_6.png" alt="Sixth slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/lower_7.png" alt="Seventh slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
       </div>
@@ -240,31 +264,19 @@
         <div class="item active">
           <img src="haamlock/manufacturing/body_1test.jpg" alt="First slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/body_2test.jpg" alt="Second slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div> -->
+
           </div>
         </div>
         <div class="item">
           <img src="haamlock/manufacturing/body_3test.jpg" alt="Third slide">
           <div class="container">
-<!--             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-            </div> -->
+
           </div>
         </div>
       </div>
