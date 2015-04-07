@@ -1,11 +1,12 @@
 div.list-tile {
     position:relative;
+    border: 3px solid;
+    border-color: #fff;
+    border-radius: 10px;
 }
 
 div.list-tile:hover {
 
-    border: 2px solid;
     border-color: #6797e5;
-    border-radius: 10px;
 
 }
